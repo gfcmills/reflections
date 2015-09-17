@@ -5,3 +5,7 @@ When you initialise a repo, git starts tracking changes in it. If you don't init
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a place to break down commits into logical chunks. This means you can commit a logically separated piece of work even if you've moved on to the next thing.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add only one file at a time to the staging area, and commit that alone. Or, you could add some but not all files, taking care to only add the files that were relevant for a particular change.

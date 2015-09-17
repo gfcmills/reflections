@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialise a repo, git starts tracking changes in it. If you don't initialise a repo, there is no way for git to track changes, which means it can't merge or revert to alternative versions. NB initialising creates a .git file in the folder which the repo is based on. In this folder, git tracks all the changes between different commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a place to break down commits into logical chunks. This means you can commit a logically separated piece of work even if you've moved on to the next thing.

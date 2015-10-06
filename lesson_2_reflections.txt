@@ -17,3 +17,7 @@ If you were trying out an experimental feature, or making a different version of
 How do the diagrams help you visualize the branch structure?
 
 Because git allows non-linear development, diagrams help show the different branches in a repository.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It combined all of the changes made on two distinct branches with the same root into one branch. That means that we merged two workflows into one. It's represented as two branches rejoining at the head. The different branches show their original parents in the diagram.

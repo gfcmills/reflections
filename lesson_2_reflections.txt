@@ -13,3 +13,7 @@ You can add only one file at a time to the staging area, and commit that alone. 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 If you were trying out an experimental feature, or making a different version of a program it would be helpful to keep those versions separate.
+
+How do the diagrams help you visualize the branch structure?
+
+Because git allows non-linear development, diagrams help show the different branches in a repository.

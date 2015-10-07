@@ -25,3 +25,5 @@ I have no idea how people really collaborated before this kind of system was ado
 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
 Working in a separate branch is great for individual experiments that might never make it into production code. However it's a little slower to integrate with the main production system. For core elements, it might make sense to work on your local master.
+
+You could make your changes directly to the master branch in your fork, but when contributing to a public repository, it’s standard practice to make the changes in a non-master branch within the fork. This way, you can easily keep your master branch up-to-date with master of the original repository, and merge changes from master into your branch when you are ready.

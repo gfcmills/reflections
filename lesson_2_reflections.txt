@@ -21,3 +21,7 @@ Because git allows non-linear development, diagrams help show the different bran
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 It combined all of the changes made on two distinct branches with the same root into one branch. That means that we merged two workflows into one. It's represented as two branches rejoining at the head. The different branches show their original parents in the diagram.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git merges automatically when it is reasonably sure that the changes have no conflicts. This saves a lot of time, and is the purpose of the merge function in git. However, when there is a conflict, it's difficult for git to know how to resolve it. Therefore git takes the approach that when there is a conflict is it best for humans to resolve it. This may mean getting up and actually talking to someone (gasp!), though it's often possible to understand what's going on and resolve the conflict before committing changes and completing a merge.

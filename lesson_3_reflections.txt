@@ -21,3 +21,7 @@ It means you can work on the most up to date version without needing any interne
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I have no idea how people really collaborated before this kind of system was adopted. You would have to be very careful about separating the areas which each person was working on, and keep in constant communication to avoid conflicts. This would of course imrpvoe team discipline and make sure that everyone worked on their own piece of code, however it would significantly reduce the actual amount of collaboration and slow down work.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Working in a separate branch is great for individual experiments that might never make it into production code. However it's a little slower to integrate with the main production system. For core elements, it might make sense to work on your local master.

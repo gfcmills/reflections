@@ -17,3 +17,7 @@ A branch is a distinct offshoot that happens inside a single repo. You'd use a b
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It means you can work on the most up to date version without needing any internet access.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I have no idea how people really collaborated before this kind of system was adopted. You would have to be very careful about separating the areas which each person was working on, and keep in constant communication to avoid conflicts. This would of course imrpvoe team discipline and make sure that everyone worked on their own piece of code, however it would significantly reduce the actual amount of collaboration and slow down work.

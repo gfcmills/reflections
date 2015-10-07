@@ -5,3 +5,11 @@ You might want to do that if you were working in a team, which required access t
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 In case you're working on something distinct from the main version. You may want to change something and then push back to the remote. If git kept pulling automatically, it would reverse all the work that you'd done, or present you with unwanted conflicts.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is a clone on github of another repository (usually somebody else's). You'd use a fork to build off someone else's work when you don't have permission to add to edit the contents, while at the same time referencing their original work.
+
+A clone is a copy of a repository made from one place to another, you'd use a clone to work on a repository that you have editing rights to in a different environment from the the one it's stored in.
+
+A branch is a distinct offshoot that happens inside a single repo. You'd use a branch to work on a e.g. a feature that doesn't affect the core of the repo you're working on.
